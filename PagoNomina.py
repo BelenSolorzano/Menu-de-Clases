@@ -26,9 +26,7 @@ class Empresa:
             print("Nombre: {:31} Cédula: {} \nDirección: {:28} Telefóno: {}".format(i.nombre,i.cedula,i.direccion,i.telefono))
         for j in self.departamento:
             print("Departamento: {}".format(j.descripcion))
-        
-    # def mostrarDepartamento(self):
-
+      
 class Empleado:
     def __init__(self,id,nom,ced,dir,tel,fi,sueldo): 
         self.__id = id
